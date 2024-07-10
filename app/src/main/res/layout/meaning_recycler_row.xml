@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_corner"
+    android:paddingTop="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="noun"
+        android:textStyle="bold"
+        android:textColor="@color/my_primary"
+        android:textSize="20sp"
+        android:id="@+id/parts_of_speech_textv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Definitions:"
+        android:textSize="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 def \n\n 2 anot \n\n 3 def"
+        android:id="@+id/definition_tv"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Synonyms:"
+        android:textSize="16dp"
+        android:id="@+id/synonyms_title_tv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xcg, sedegs, sedfsd"
+        android:id="@+id/synonyms_tv"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Antonyms:"
+        android:textSize="16dp"
+        android:id="@+id/antonyms_title_tv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xcg, sedegs, sedfsd"
+        android:id="@+id/antonyms_tv"/>
+
+
+</LinearLayout>

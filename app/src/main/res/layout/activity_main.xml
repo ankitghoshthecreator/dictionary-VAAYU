@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -40,6 +40,31 @@
             android:id="@+id/progress_bar"
             android:visibility="gone"/>
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Word"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#004378"
+        android:id="@+id/word_text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/ hmmmm /"
+        android:textColor="@color/grey"
+        android:id="@+id/phonetic_text"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/meaning_recycler_view"
+        />
+
 
 
 </LinearLayout>
